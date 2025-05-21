@@ -1,0 +1,17 @@
+.titulo{
+  text-align:center;
+  font-family: "Gill Sans", sans-serif;
+  color: #87CEEB 
+}
+body {
+}
+.menuFixo {
+  text-align:center;
+}
+.Servicos{
+  width: 300px;
+  border: 7px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
