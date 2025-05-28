@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarrinhoUp</title>
+    <link rel="stylesheet" href="estilo_carrinho.css">
+<body>
+    <div class="container">
+        <header>
+            <h1>Finalizar Compra</h1>
+            <p>Confira os produtos do seu carrinho antes de finalizar a compra</p>
+        </header>
+        
+        <div class="checkout">
+            <h2 class="titulo">Resumo do Pedido</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Valor Unitário</th>
+                        <th>Valor Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="nome-produto">Lavagem simples</td>
+                        <td class="quantidade-produto">2</td>
+                        <td class="preço">R$ 60,00</td>
+                        <td class="preço">R$ 120,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" style="text-align: right;"><strong>Subtotal:</strong></td>
+                        <td class="preço">R$ 120,00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: right;"><strong>Frete:</strong></td>
+                        <td class="preço">R$ 0,00</td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+            <div class="sumário">
+                <div class="linha-de-sumário">
+                    <span>Subtotal de serviços:</span>
+                    <span class="preço">R$ 120,00</span>
+                </div>
+                <div class="linha-de-sumário">
+                    <span>Frete:</span>
+                    <span class="preço">R$ 0,00</span>
+                </div>
+                <div class="linha-de-sumário-total">
+                    <span>Total:</span>
+                    <span class="preço">R$ 120,00</span>
+                </div>
+            </div>
+            
+            <button class="btn btn-block">Finalizar Compra</button>
+        </div>
+    </div>
+</body>
+</html>
